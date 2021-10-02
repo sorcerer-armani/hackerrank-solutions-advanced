@@ -15,3 +15,26 @@ body {
 h1 {
   margin-bottom: 1em;
 }
+
+tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+tr:nth-child(n + 2):hover {
+  background-color: #999;
+  cursor: pointer;
+}
+
+th,
+td {
+  padding: 1em 2em;
+}
+
+footer {
+  display: fixed;
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+  font-size: 0.75em;
+  text-align: center;
+}
